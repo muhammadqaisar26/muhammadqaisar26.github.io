@@ -80,8 +80,7 @@ input[type="submit"], button {
     transition: background 0.3s;
 }
 
-input[type="submit"]:hover, button:hover {
-    background-color: #5C4033;
-    color: #e7c495;
-}
-
+    input[type="submit"]:hover, button:hover {
+        background-color: #5C4033;
+        color: #e7c495;
+    }

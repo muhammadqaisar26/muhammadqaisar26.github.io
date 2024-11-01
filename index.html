@@ -1,32 +1,37 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
+
 <link href="mycss.css" rel="stylesheet">
 
 <head>
+    <title> Muhammad's Official Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description"
-          content="This page has information about my academic background.
-             Users can find information on where I attended school
-             and what I'm currently taking in school.">
-
-    <title>My Education</title>
+          content="This is the homepage of my portfolio website.
+                 Users can find the welcome message, nav bar and a section at the bottom
+                 for Quotes.">
 </head>
 
-<body>
-    <script src="lab5.js"></script>
-    <div id="wrapper">
+<div class="welcomemsg">
+    <header>
+        <h1>WELCOME TO MY PAGE!</h1>
+    </header>
+</div>
 
+<body>
+    <div class="HomeBody">
         
         <div class="ddmenu">
-            <a href="new website.html" class="headername">Muhammad Qaisar</a>
+            <a href="index.html" class="headername">Muhammad Qaisar</a>
             <ul>
                 <li><a href="aboutme.html">About Me</a></li>
                 <li>
                     <a href="#">My Resume </a>
                     <div class="dd-res">
                         <ul>
-                            <li><a href="index.html">My Education</a></li>
+                            <li><a href="myeducation.html">My Education</a></li>
                             <li><a href="experiences.html">My Experiences</a></li>
                         </ul>
                     </div>
@@ -36,7 +41,7 @@
                     <div class="dd-link">
                         <ul>
                             <li><a href="https://github.com/muhammadqaisar26/muhammadqaisar26.github.io">Github</a></li>
-                            <li><a href="https://www.linkedin.com/in/muhammad-qaisar-303356265/">Linkedin</a></li>
+                            <li><a href="https://www.linkedin.com/in/muhammad-qaisar-303356265">Linkedin</a></li>
                         </ul>
                     </div>
                 </li>
@@ -45,49 +50,49 @@
             </ul>
         </div>
 
+
         
-        <h1>
-            My Education
-        </h1>
-        <article>
-            <h2>Toronto Metropolitan University</h2>
-            <em>B.Comm in Business Technology Management</em>
-            <time datetime="2020">(2020-Present)</time>
-            <p>My program is Business Technology Management and it has aspects of IT, Accounting, Marketing, Economics, Law, Finance, and Professional Communication.<br>
-            There are also several elective courses that you could take to explore other fields while graduating from this Program. Below are three courses that I found very interesting. </p>
-            <ul>
-                <li>CMN279: Web Development</li>
-                <p>This course dealt with communication in a professional setting. <br>After taking this course, it helped me improve my communication with professors, fellow students, coworkers, and managers.</p>
-                <li>ITM301: IT Infrastructure</li>
-                <li>ITM752: Data Visualization</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Pine Ridge Secondary School</h2>
-            <em>High School</em>
-            <time datetime="2016">(2016-2020)</time>
-            <p>I attended Pine Ridge Secondary School and was on the soccer team in Grade 12, located in Pickering, Ontario.</p>
-        </article>
-        <article>
-            <h2>Achievements</h2>
-            <ol>
-                <li>Grade 9-12: Honour Roll</li>
-                <li>Top 10% Engaged Student at TMU</li>
-                <li>TRSM Badges in Raptor and BPMN</li>
-            </ol>
-        </article>
-        </section>
-        <div class="fontdd">
-            <button>Change Font Size</button>
-            <div class="fontsz">
-                <a href="javascript:void(0);" onclick="javascript:body.style.fontSize='.5em'"><span style="font-size: xx-small;">Small</span></a>
-                <a href="javascript:void(0);" onclick="javascript:body.style.fontSize='1em'"><span style="font-size:medium;">medium</span></a>
-                <a href="javascript:void(0);" onclick="javascript:body.style.fontSize='2em'"><span style="font-size:large;">Large</span></a>
-            </div>
+    </div>
+    <script src="lab5.js"></script>
+    <div class="wrapper">
+        <br>
+        <br>
+        <br>
+        <h2>
+            "I'm a Toronto-based IT student with a solid foundation in retail and customer service.
+            I am excited to work with a variety of different organizations to explore marketing,
+            finance, and technology."
+        </h2>
+        <br>
+        <h2>Click on the links on the navigation bar to learn more about me.</h2>
+
+    </div>
+
+    
+    <div class="hometext">
+        <h2> Quotes to live by </h2>
+        <br>
+        <h3><em>"‘There are no secrets to success. It is the result of preparation, hard work, and learning from failure.’"</em></h3>
+        <br><h4>– Colin Powell</h4>
+        <br>
+        <br>
+        <h3><em>"‘If you’re trying to create a company, it’s like baking a cake. <br>You have to have all the ingredients in the right proportion.’"</em></h3>
+        <br><h4>- Elon Musk</h4>
+    </div>
+    </div>
+
+    <div class="fontdd">
+        <button>Change Font Size</button>
+        <div class="fontsz">
+            <a href="javascript:void(0);" onclick="javascript:body.style.fontSize='.5em'"><span style="font-size: xx-small;">Small</span></a>
+            <a href="javascript:void(0);" onclick="javascript:body.style.fontSize='1em'"><span style="font-size:medium;">medium</span></a>
+            <a href="javascript:void(0);" onclick="javascript:body.style.fontSize='2em'"><span style="font-size:large;">Large</span></a>
         </div>
-        <footer>
-            <br>Copyright &copy; Muhammad Qaisar
-        </footer>
     </div>
 </body>
+
+<footer>
+    <br>Copyright &copy; Muhammad Qaisar
+</footer>
+
 </html>
