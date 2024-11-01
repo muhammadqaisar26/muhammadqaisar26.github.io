@@ -12,7 +12,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #5C4033;
-    color: #e7c495;
+    color: #5C4033;
     padding: 20px;
 }
 
@@ -47,8 +47,8 @@ input[type="email"], input[type="text"], textarea {
     padding: 10px;
     margin-top: 4px;
     background-color: #e7c495;
-    border: 1px solid ##e7c495;
-    color: #e7c495;
+    border: 1px solid #e7c495;
+    color: #5C4033 ;
     border-radius: 4px;
     font-size: 1em;
 }
