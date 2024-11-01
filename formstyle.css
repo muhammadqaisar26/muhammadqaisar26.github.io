@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #5C4033;
+    color: #e7c495;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #e7c495;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #d1b38a;
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    color: #e7c495;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+    color: #e7c495;
+}
+
+input[type="email"], input[type="text"], textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 4px;
+    background-color: #e7c495;
+    border: 1px solid ##e7c495;
+    color: #e7c495;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.check_box, legend {
+    margin-top: 1em;
+    color: #e7c495;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #e7c495;
+}
+
+input[type="submit"], button {
+    margin-top: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e7c495;
+    color: #5C4033;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    input[type="submit"]:hover, button:hover {
+        background-color: ##5C4033;
+    }

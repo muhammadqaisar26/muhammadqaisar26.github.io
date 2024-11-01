@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<link href="formstyle.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta
+    name="description"
+    content="This page is the Contact page. For users who want to reach out
+             to me, they can fill out this form and I can reach back to them.">
+    <title>Contact</title>
+</head>
+
+<header>
+</header>
+
+<body>
+    <form id = myform onsubmit="myfunc(event)">
+        <h1>Let's Talk</h1> <br> 
+        <h3>Reach out to me! Fill out this form for a timely response!</h2>
+        <div>
+            <label>Full Name:</label>
+            <input id="name" type="text" required /> 
+        </div>
+        <div>  
+            <label>Email:</label>
+            <input type="email" id="email" size="20" required />
+        </div>
+        <div>
+            <label>Phone Number:</label>
+            <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+        </div>
+
+            <legend>What is your question/inquiry about? </legend>
+        <div class="check_box">
+            <input type="checkbox" size="20" checked> General
+            <input type="checkbox" size="20"> Business Collab
+            <input type="checkbox" size="20"> WebDev Inquiries
+        </div>
+        <div>
+            <legend>Enter your message: </legend>
+            <textarea id= bigmsg name="message" rows="10" cols="30"></textarea>
+        </div>
+        <div>
+            <label>Join my mailing list?</label>
+            <input id = mailing type="radio" value="A" name="choice" /> 
+        </div>
+        <div class="btnsaction">
+            <input type="submit" value="Submit"/>
+            <button type="button" onclick="clearForm()">Clear/Reset</button>
+            <input type="button" value="Previous Page" onclick="history.back()">
+        </div>

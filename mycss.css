@@ -1,0 +1,310 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Brown Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+}
+
+.wrapper h2 {
+    text-align: center;
+}
+
+.welcomemsg h1 {
+    text-align: center;
+}
+
+
+
+
+h1 {
+    color: #fcf7f4;
+    font-family: 'Times New Roman';
+    font-size: 6em;
+    text-align: left;
+    margin-top: 10%;
+}
+
+h2 {
+    color: #e6e4e1;
+    font-family: 'Times New Roman';
+    font-size: 27pt;
+    text-align: left;
+    margin-top: 0%;
+}
+
+h4 {
+    color: #eaeaea;
+    font-family: 'Times New Roman';
+    font-size: 18pt;
+    margin-top: auto;
+    margin-left: 5%;
+}
+
+
+a {
+    color: #f9f4fb;
+    font-family: 'Times New Roman';
+}
+
+a {
+    color: #eaeaea;
+    font-family: 'Times New Roman';
+}
+
+    a:hover {
+        text-decoration: none;
+        color: #5C4033;
+    }
+
+    a:active {
+        text-decoration: double;
+        color: #5C4033
+    }
+
+    a:visited {
+        text-decoration: solid;
+        color: #5C4033
+    }
+
+    a:link {
+        text-decoration: dotted;
+        color: blueviolet
+    }
+
+.div1 {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: #000000;
+    padding: 5px;
+    text-align: left;
+}
+
+.div2 {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px #000000;
+    padding: 5px;
+    text-align: left;
+}
+
+.edupng img {
+    width: 50%;
+    margin-left: 55%;
+}
+
+.telpng img {
+    width: 30%;
+    margin-left: 75%;
+}
+
+footer {
+    color: #ffffff;
+}
+
+
+
+.ddmenu {
+    background-color: #e7c495;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    min-width: 40em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+
+    .ddmenu ul {
+        list-style: none;
+        display: flex;
+        text-align: right;
+    }
+
+        .ddmenu ul li {
+            padding: 10px 90px;
+            position: relative;
+            text-align: left;
+        }
+
+            .ddmenu ul li a {
+                color: #FFFFFF;
+                font-size: 1.4em;
+                transition: all 0.3s;
+                font-weight: 700;
+            }
+
+                .ddmenu ul li a:hover {
+                    color: #5C4033
+                }
+
+.dd-res {
+    display: none;
+}
+
+.ddmenu ul li:hover .dd-res {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #e7c495;
+    padding: 5px 5px 5px 5px;
+}
+
+.dd-res ul {
+    display: block;
+    margin: 10px;
+}
+
+    .dd-res ul li {
+        width: 130px;
+        padding: 10px;
+        text-align: center;
+    }
+
+.dd-link {
+    display: none;
+}
+
+.ddmenu ul li:hover .dd-link {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #e7c495;
+}
+
+.dd-link ul {
+    display: block;
+    margin: 10px;
+}
+
+    .dd-link ul li {
+        width: 150px;
+        padding: 10px;
+    }
+
+.headername {
+    font-size: 2em;
+    color: #5C4033;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.wrapper {
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.hometext h2 {
+    text-align: center;
+    font-size: 6em;
+}
+
+.hometext h3 {
+    text-align: center;
+    font-size: 2em;
+    top: 0;
+}
+
+.hometext h4 {
+    text-align: center;
+    font-size: 2em;
+    top: 0;
+}
+
+
+#aboutme {
+    padding: 100px 0;
+    color: #fff;
+}
+
+.row_aboutme {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column1_aboutme {
+    flex-basis: 25%;
+}
+
+    .column1_aboutme img {
+        width: 90%;
+        border-radius: 35px;
+        margin-top: 49%;
+    }
+
+.column2_aboutme {
+    flex-basis: 70%;
+}
+
+    .column2_aboutme p {
+        font-size: x-large;
+        line-height: 2;
+        padding: 45px 0;
+    }
+
+.sub_title {
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    margin-top: 0;
+}
+
+}
+
+.home_description {
+    font-size: x-large;
+    text-indent: 0px;
+    line-height: 1.4;
+    padding: 10 0 10px 0;
+}
+
+
+.fontdd button {
+    background-color: #fff;
+    color: #000000;
+    padding: 5px 10px;
+    margin-bottom: 4%;
+    border: none;
+    cursor: pointer;
+}
+
+.fontdd a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.fontdd .fontsz {
+    display: none;
+    background-color: #ffffff92;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 3px 3px 4px black;
+}
+
+.fontdd:hover .fontsz {
+    display: block;
+}
