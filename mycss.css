@@ -1,3 +1,4 @@
+/* General body and background */
 body {
     width: 100%;
     min-height: 100vh;
@@ -20,9 +21,7 @@ body {
     text-align: center;
 }
 
-
-
-
+/* Header Styles */
 h1 {
     color: #fcf7f4;
     font-family: 'Times New Roman';
@@ -47,14 +46,9 @@ h4 {
     margin-left: 5%;
 }
 
-
+/* Links */
 a {
     color: #f9f4fb;
-    font-family: 'Times New Roman';
-}
-
-a {
-    color: #eaeaea;
     font-family: 'Times New Roman';
 }
 
@@ -65,19 +59,20 @@ a {
 
     a:active {
         text-decoration: double;
-        color: #5C4033
+        color: #5C4033;
     }
 
     a:visited {
         text-decoration: solid;
-        color: #5C4033
+        color: #5C4033;
     }
 
     a:link {
         text-decoration: dotted;
-        color: blueviolet
+        color: blueviolet;
     }
 
+/* Div containers */
 .div1 {
     width: 200px;
     height: 50px;
@@ -96,6 +91,7 @@ a {
     text-align: left;
 }
 
+/* Images */
 .edupng img {
     width: 50%;
     margin-left: 55%;
@@ -110,8 +106,7 @@ footer {
     color: #ffffff;
 }
 
-
-
+/* Dropdown menu */
 .ddmenu {
     background-color: #e7c495;
     position: fixed;
@@ -147,7 +142,7 @@ footer {
             }
 
                 .ddmenu ul li a:hover {
-                    color: #5C4033
+                    color: #5C4033;
                 }
 
 .dd-res {
@@ -196,6 +191,7 @@ footer {
         padding: 10px;
     }
 
+/* Header name */
 .headername {
     font-size: 2em;
     color: #5C4033;
@@ -203,7 +199,7 @@ footer {
     font-weight: 700;
 }
 
-
+/* Main container and about me section */
 .wrapper {
     align-items: center;
     justify-self: center;
@@ -220,18 +216,10 @@ footer {
     font-size: 6em;
 }
 
-.hometext h3 {
+.hometext h3, .hometext h4 {
     text-align: center;
     font-size: 2em;
-    top: 0;
 }
-
-.hometext h4 {
-    text-align: center;
-    font-size: 2em;
-    top: 0;
-}
-
 
 #aboutme {
     padding: 100px 0;
@@ -249,19 +237,19 @@ footer {
 }
 
     .column1_aboutme img {
-        width: 90%;
-        border-radius: 35px;
+        width: 75%;
+        border-radius: 20px;
         margin-top: 49%;
     }
 
 .column2_aboutme {
-    flex-basis: 70%;
+    flex-basis: 65%;
 }
 
     .column2_aboutme p {
         font-size: x-large;
-        line-height: 2;
-        padding: 45px 0;
+        line-height: 1;
+        padding: 15px 0;
     }
 
 .sub_title {
@@ -271,6 +259,21 @@ footer {
     margin-top: 0;
 }
 
+/* New image section */
+.new_images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.image_container {
+    text-align: center;
+}
+
+.resized_image {
+    width: 70%; 
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .home_description {
@@ -280,7 +283,7 @@ footer {
     padding: 10 0 10px 0;
 }
 
-
+/* Font size changer */
 .fontdd button {
     background-color: #fff;
     color: #000000;
