@@ -1,28 +1,25 @@
-}
 body {
-    width: 100%;
-    height: 350;
+    display: table;
+    width: 89%;
+    height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Brown Background.jpg");
     top: 0;
     left: 0;
-    padding: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Brown Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     color: #ffffff;
     font-family: 'Times New Roman';
     font-size: 12pt;
-    .wrapper h2
+}
 
-{
+.wrapper h2 {
     text-align: center;
 }
 
 .welcomemsg h1 {
     text-align: center;
-}
-}
-
+}   
 /* Header name */
 .headername {
     font-size: 1.3em; 
