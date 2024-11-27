@@ -213,6 +213,8 @@ body {
     display: none;
     background-color: #ffffff92;
     position: absolute;
+    top: 100%;
+    left: 0;
     min-width: 100px;
     box-shadow: 3px 3px 4px black;
 }
