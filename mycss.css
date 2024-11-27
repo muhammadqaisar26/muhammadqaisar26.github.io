@@ -45,7 +45,7 @@ body {
 }
 
 .ddmenu ul li {
-    padding: 5px 25px; /* Reduced spacing between menu items */
+    padding: 5px 30px; /* Reduced spacing between menu items */
     position: relative;
     text-align: left;
 }
