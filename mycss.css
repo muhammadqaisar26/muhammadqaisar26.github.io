@@ -104,13 +104,14 @@ a {
 
 footer {
     color: #ffffff;
-    .dd-link ul
-{
+}
+
+.dd-link ul {
     display: block;
     margin: 10px;
-    .ddmenu
+}
 
-{
+.ddmenu {
     background-color: #eaeaea;
     position: fixed;
     top: 0;
@@ -125,28 +126,28 @@ footer {
     padding: 0 7%;
 }
 
-.ddmenu ul {
-    list-style: none;
-    display: flex;
-    text-align: right;
-}
-
-    .ddmenu ul li {
-        padding: 10px 40px;
-        position: relative;
-        text-align: left;
+    .ddmenu ul {
+        list-style: none;
+        display: flex;
+        text-align: right;
     }
 
-        .ddmenu ul li a {
-            color: #000000;
-            font-size: 1.4em;
-            transition: all 0.3s;
-            font-weight: 700;
+        .ddmenu ul li {
+            padding: 10px 40px;
+            position: relative;
+            text-align: left;
         }
 
-            .ddmenu ul li a:hover {
-                color: #e84e4e
+            .ddmenu ul li a {
+                color: #000000;
+                font-size: 1.4em;
+                transition: all 0.3s;
+                font-weight: 700;
             }
+
+                .ddmenu ul li a:hover {
+                    color: #e84e4e;
+                }
 
 .dd-res {
     display: none;
@@ -218,35 +219,6 @@ footer {
     font-size: 6em;
 }
 
-.hometext h3 {
-    text-align: center;
-    font-size: 2em;
-    top: 0;
-}
-
-.hometext h4 {
-    text-align: center;
-    font-size: 2em;
-    top: 0;
-}
-
-/* Main container and about me section */
-.wrapper {
-    align-items: center;
-    justify-self: center;
-    margin: 0 auto;
-    height: 90vh;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-}
-
-.hometext h2 {
-    text-align: center;
-    font-size: 6em;
-}
-
 .hometext h3, .hometext h4 {
     text-align: center;
     font-size: 2em;
@@ -267,21 +239,21 @@ footer {
     flex-basis: 25%;
 }
 
-.column1_aboutme img {
-    width: 75%;
-    border-radius: 20px;
-    margin-top: 49%;
-}
+    .column1_aboutme img {
+        width: 75%;
+        border-radius: 20px;
+        margin-top: 49%;
+    }
 
 .column2_aboutme {
     flex-basis: 65%;
 }
 
-.column2_aboutme p {
-    font-size: x-large;
-    line-height: 1;
-    padding: 15px 0;
-}
+    .column2_aboutme p {
+        font-size: x-large;
+        line-height: 1;
+        padding: 15px 0;
+    }
 
 .sub_title {
     font-size: 70px;
@@ -302,7 +274,7 @@ footer {
 }
 
 .resized_image {
-    width: 70%; 
+    width: 70%;
     border-radius: 20px;
     margin-bottom: 10px;
 }
@@ -344,4 +316,3 @@ footer {
 .fontdd:hover .fontsz {
     display: block;
 }
-
