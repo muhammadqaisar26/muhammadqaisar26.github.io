@@ -19,92 +19,92 @@ body {
 
 .welcomemsg h1 {
     text-align: center;
-}   
-/* Header name */
-.headername {
-    font-size: 1.3em; 
-    color: #5C4033;
-    text-decoration: none;
-    font-weight: 700;
 }
 
-/* Dropdown menu */
-.ddmenu {
-    background-color: #e7c495;
-    position: fixed;
-    top: 0;
-    left: 0;
+/* Header Styles */
+h1 {
+    color: #fcf7f4;
+    font-family: 'Times New Roman';
+    font-size: 6em;
     text-align: left;
-    display: flex;
-    width: 100%;
+    margin-top: 10%;
+}
+
+h2 {
+    color: #e6e4e1;
+    font-family: 'Times New Roman';
+    font-size: 27pt;
+    text-align: left;
+    margin-top: 0%;
+}
+
+h4 {
+    color: #eaeaea;
+    font-family: 'Times New Roman';
+    font-size: 18pt;
+    margin-top: auto;
+    margin-left: 5%;
+}
+
+/* Links */
+a {
+    color: #f9f4fb;
+    font-family: 'Times New Roman';
+}
+
+    a:hover {
+        text-decoration: none;
+        color: #5C4033;
+    }
+
+    a:active {
+        text-decoration: double;
+        color: #5C4033;
+    }
+
+    a:visited {
+        text-decoration: solid;
+        color: #5C4033;
+    }
+
+    a:link {
+        text-decoration: dotted;
+        color: blueviolet;
+    }
+
+/* Div containers */
+.div1 {
+    width: 200px;
     height: 50px;
-    min-width: 40em;
-    align-items: center;
-    justify-content: space-evenly ;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.ddmenu ul {
-    list-style: none;
-    display: flex;
-    text-align: right;
-}
-
-.ddmenu ul li {
-    padding: 5px 30px; /* Reduced spacing between menu items */
-    position: relative;
+    background-color: transparent;
+    border: #000000;
+    padding: 5px;
     text-align: left;
 }
 
-.ddmenu ul li a {
-    color: #FFFFFF;
-    font-size: 1.2em;
-    transition: all 0.3s;
-    font-weight: 700;
+.div2 {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px #000000;
+    padding: 5px;
+    text-align: left;
 }
 
-.ddmenu ul li a:hover {
-    color: #5C4033;
+/* Images */
+.edupng img {
+    width: 50%;
+    margin-left: 55%;
 }
 
-.dd-res {
-    display: none;
+.telpng img {
+    width: 30%;
+    margin-left: 75%;
 }
 
-.ddmenu ul li:hover .dd-res {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: #e7c495;
-    padding: 5px 5px 5px 5px;
-}
-
-.dd-res ul {
-    display: block;
-    margin: 10px;
-}
-
-.dd-res ul li {
-    width: 130px;
-    padding: 10px;
-    text-align: center;
-}
-
-.dd-link {
-    display: none;
-}
-
-.ddmenu ul li:hover .dd-link {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: #e7c495;
-}
-
-.dd-link ul {
+footer {
+    color: #ffffff;
+    .dd-link ul {
     display: block;
     margin: 10px;
 }
