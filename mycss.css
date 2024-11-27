@@ -104,15 +104,130 @@ a {
 
 footer {
     color: #ffffff;
-    .dd-link ul {
+    .dd-link ul
+{
+    display: block;
+    margin: 10px;
+    .ddmenu
+
+{
+    background-color: #eaeaea;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    min-width: 40em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+
+.ddmenu ul {
+    list-style: none;
+    display: flex;
+    text-align: right;
+}
+
+    .ddmenu ul li {
+        padding: 10px 40px;
+        position: relative;
+        text-align: left;
+    }
+
+        .ddmenu ul li a {
+            color: #000000;
+            font-size: 1.4em;
+            transition: all 0.3s;
+            font-weight: 700;
+        }
+
+            .ddmenu ul li a:hover {
+                color: #e84e4e
+            }
+
+.dd-res {
+    display: none;
+}
+
+.ddmenu ul li:hover .dd-res {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #eaeaea;
+    padding: 5px 5px 5px 5px;
+}
+
+.dd-res ul {
     display: block;
     margin: 10px;
 }
 
-.dd-link ul li {
-    width: 130px;
-    padding: 10px;
+    .dd-res ul li {
+        width: 130px;
+        padding: 10px;
+        text-align: center;
+    }
+
+.dd-link {
+    display: none;
+}
+
+.ddmenu ul li:hover .dd-link {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #eaeaea;
+}
+
+.dd-link ul {
+    display: block;
+    margin: 10px;
+}
+
+    .dd-link ul li {
+        width: 150px;
+        padding: 10px;
+    }
+
+.headername {
+    font-size: 2em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* The Home Page */
+.wrapper {
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.hometext h2 {
     text-align: center;
+    font-size: 6em;
+}
+
+.hometext h3 {
+    text-align: center;
+    font-size: 2em;
+    top: 0;
+}
+
+.hometext h4 {
+    text-align: center;
+    font-size: 2em;
+    top: 0;
 }
 
 /* Main container and about me section */
