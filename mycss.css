@@ -1,8 +1,9 @@
-/* General body and background */
+}
 body {
     width: 100%;
-    min-height: 100vh;
-    margin: 0;
+    height: 350;
+    top: 0;
+    left: 0;
     padding: 20px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Brown Background.jpg");
     background-repeat: no-repeat;
@@ -11,6 +12,15 @@ body {
     color: #ffffff;
     font-family: 'Times New Roman';
     font-size: 12pt;
+    .wrapper h2
+
+{
+    text-align: center;
+}
+
+.welcomemsg h1 {
+    text-align: center;
+}
 }
 
 /* Header name */
