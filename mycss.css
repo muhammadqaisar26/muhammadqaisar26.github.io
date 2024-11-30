@@ -286,7 +286,7 @@ footer {
     padding: 10 0 10px 0;
 }
 
-/* Font size changer */
+/* Font size changer button */
 .fontdd button {
     background-color: #e7c495;
     color: #000000;
@@ -294,6 +294,19 @@ footer {
     margin-bottom: 4%;
     border: none;
     cursor: pointer;
+    position: relative; /* Added to ensure the dropdown appears near the button */
+}
+
+/* Font size options */
+.fontdd .fontsz {
+    display: none; /* Hidden by default */
+    background-color: #ffffff92;
+    position: absolute;
+    top: 100%; /* Align the dropdown right below the button */
+    left: 0;
+    min-width: 100px;
+    box-shadow: 3px 3px 4px black;
+    z-index: 1;
 }
 
 .fontdd a {
@@ -303,16 +316,7 @@ footer {
     padding: 5px 10px;
 }
 
-.fontdd .fontsz {
-    display: none;
-    background-color: #ffffff92;
-    position: absolute;
-    top: 30%;
-    left: 0;
-    min-width: 100px;
-    box-shadow: 3px 3px 4px black;
-}
-
+/* Show the font size options when hovering over the button */
 .fontdd:hover .fontsz {
     display: block;
 }
